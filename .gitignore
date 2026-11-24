@@ -1,0 +1,30 @@
+# Office lock files
+~$*
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+
+# .NET
+bin/
+obj/
+TestResults/
+
+# Node / frontend
+node_modules/
+dist/
+coverage/
+*.log
+
+# Deploy: secrets & runtime data
+deploy/env/*.env
+!deploy/env/.env.example
+deploy/nginx/ssl/
+deploy/data/**
+!deploy/data/**/.gitkeep
+.env
